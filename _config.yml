@@ -190,7 +190,7 @@ code:
 reward:
   enable: true
   title: 你的赏识是我前进的动力
-  wechat: /medias/reward/wechat.png
+  wechat: /medias/reward/wechat.jpg
   alipay: /medias/reward/alipay.jpg
 
 # Whether to activate the copyright information of the blog and author when copying the post content.
@@ -409,7 +409,7 @@ changyan:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/BrendanLi136/hexo-theme-matery
   title: Fork Me
 
 # The configuration of the Twikoo comment module is not activated by default.
