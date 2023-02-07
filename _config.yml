@@ -19,9 +19,9 @@ menu:
 #  Contact:
 #    url: /contact
 #    icon: fas fa-comments
-  Friends:
-    url: /friends
-    icon: fas fa-address-book
+#  Friends:
+#    url: /friends
+#    icon: fas fa-address-book
   # 二级菜单写法如下
   #Medias:
   #  icon: fas fa-list
@@ -265,20 +265,20 @@ profile:
 myProjects:
   enable: true
   data:
-    ASOP:
-      icon: fas fa-file-alt
-      iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: 404
-      desc: 服务编排
     A3-RRS:
-        icon: fas fa-database
+      icon: fas fa-database
+      iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
+      url: rrs-service
+      desc: A3-RRS(Responsive RESTful service)响应式服务
+    ASOP:
+        icon: fa-brands fa-servicestack
         iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: 404
-        desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
+        url: asop
+        desc: 服务编排
     ALS:
-        icon: fas fa-file-alt
+        icon: fa-regular fa-credit-card
         iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: 404
+        url: als
         desc: 综合信贷
 
 # config my skills informations in about page.
@@ -429,7 +429,7 @@ twikoo:
 # 阅读文章的密码验证功能，如要使用此功能请激活该配置项，并在对应文章的Front-matter中写上'password'的键和加密后的密文即可.
 # 请注意：为了保证密码原文不会被泄露到网页中，文章的密码必须是通过'SHA256'加密的，这样就不会被破解.
 verifyPassword:
-  enable: false
+  enable: true
   promptMessage: 请输入访问本文章的密码
   errorMessage: 密码错误，将返回主页！
 
